@@ -1,33 +1,33 @@
 <html>
   <head>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="kata.js"></script>
   </head>
   <body>
     <div class='desc'>
       In this Kata, you are required to detect the bugs in kata.js.
     </div>
-    <div>
+    <div class='display'>
     </div>
     <table>
       <tr>
         <th>Name</th><th>Price</th><th>Quantity</th>
       </tr>
-      <tr>
-        <th>Jack's Big Stack</th><th>4.91</th><th><input type='number'></th>
+      <tr class='item'>
+        <td>Jack's Big Stack</td><td class='price'>4.99</td><td><input type='number' class='quantity'></td>
       </tr>
-      <tr>
-        <th>Jumbol Jack</th><th>2.99</th><th><input type='number'></th>
+      <tr class='item'>
+        <td>Jumbol Jack</td><td class='price'>2.99</td><td><input type='number' class='quantity'></td>
       </tr>
-      <tr>
-        <th>Jumbol Jack</th><th>2.99</th><th><input type='number'></th>
+      <tr class='item'>
+        <td>Bacon Cheddar Potato Wedges</td><td class='price'>3.99</td><td><input type='number' class='quantity'></td>
       </tr>
-      <tr>
-        <th>Bacon Cheddar Potato Wedges</th><th>3.99</th><th><input type='number'></th>
-      </tr>
-      <tr>
-        <th>Mocha Iced Coffee</th><th>1.99</th><th><input type='number'></th>
+      <tr class='item'>
+        <td>Mocha Iced Coffee</td><td class='price'>1.99</td><td><input type='number' class='quantity'></td>
       </tr>
     </table>
-
+    <div>
+      <button id='submit'>Let's See!</button>
+    </div>
   </body>
 </html>
