@@ -1,11 +1,15 @@
 <html>
   <head>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="kata.js"></script>
   </head>
   <body>
     <div class='desc'>
-      In this Kata, you are required to detect the bugs in kata.js.
+      <p>
+        <b>In this Kata, you are required to detect the bugs in kata.js.</b>
+      </p>
+      <p>
+        <b>Your target is to display the correct total value of each item and for the whole order.</b>
+      </p>
     </div>
     <div class='display'>
     </div>
@@ -14,20 +18,21 @@
         <th>Name</th><th>Price</th><th>Quantity</th>
       </tr>
       <tr class='item'>
-        <td>Jack's Big Stack</td><td class='price'>4.99</td><td><input type='number' class='quantity'></td>
+        <td class='name'>Jack's Big Stack</td><td class='price'>4.99</td><td><input type='number' class='quantity'></td>
       </tr>
       <tr class='item'>
-        <td>Jumbol Jack</td><td class='price'>2.99</td><td><input type='number' class='quantity'></td>
+        <td class='name'>Jumbol Jack</td><td class='price'>2.99</td><td><input type='number' class='quantity'></td>
       </tr>
       <tr class='item'>
-        <td>Bacon Cheddar Potato Wedges</td><td class='price'>3.99</td><td><input type='number' class='quantity'></td>
+        <td class='name'>Bacon Cheddar Potato Wedges</td><td class='price'>3.99</td><td><input type='number' class='quantity'></td>
       </tr>
       <tr class='item'>
-        <td>Mocha Iced Coffee</td><td class='price'>1.99</td><td><input type='number' class='quantity'></td>
+        <td class='name'>Mocha Iced Coffee</td><td class='price'>1.99</td><td><input type='number' class='quantity'></td>
       </tr>
     </table>
     <div>
       <button id='submit'>Let's See!</button>
     </div>
+    <script src="kata.js"></script>
   </body>
 </html>
